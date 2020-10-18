@@ -4,6 +4,7 @@
 
 layout: home
 permalink: /
+title: Home
 ---
 
 # Welcome
