@@ -4,3 +4,4 @@ data
 
 web/_site
 python/.ipynb_checkpoints/omdb-checkpoint.ipynb
+web/_config_secret.yml

@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+
+  <a class="navbar-brand" href="{{site.baseurl}}">{{site.title}}</a>
+
+  <button class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarText">
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+
+    <!-- Social links -->
+    <span class="navbar-text">
+      <ul class="list-inline">
+      <li class="list-inline-item">
+      <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+        <i class="fab fa-github"></i>
+      </a>
+      </li>
+
+      <li class="list-inline-item">
+      <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+        <i class="fab fa-twitter"></i>
+      </a>
+      </li>
+      </ul>
+
+    </span>
+
+  </div>
+
+</nav>
