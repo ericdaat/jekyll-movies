@@ -1,0 +1,6 @@
+data
+*.key
+.DS_Store
+
+web/_site
+python/.ipynb_checkpoints/omdb-checkpoint.ipynb
