@@ -3,11 +3,12 @@
     <img src="${hit.poster}"
          class="card-img-top"
          alt="${hit.title}"
-         style="max-width: 100px;">
+         style="max-width: 150px;">
 
     <div class="ml-3 media-body">
-        <h5>${hit.title}</h5>
+        <h5><a href="${hit.url}">${hit.title}</a></h5>
         <p>${hit.plot}</p>
+        <p>Cast: ${hit.actors}</p>
         <p><small class="text-muted">${hit.genre}</small></p>
     </div>
 
